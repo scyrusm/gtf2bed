@@ -36,13 +36,15 @@ Run gtf2bed with the following command, specifying the GTF input file and the de
 ./gtf2bed.sh gencode.v45.annotation.gtf
 ```
 
-This will produce a BED12 file ready for use in genome visualization tools. Using Coolbox, whole genome images from the gencode gtf file, like this:
+This will produce a BED12 file ready for use in genome visualization tools. Using Coolbox, whole gene images from the gencode gtf file, like this:
 
 ![GTF visualisation in CoolBox](./images/gtf_plot_coolbox.png)
 
 Can now be used to show block-level (exon) information, like this:
 
 ![BED visualisation in CoolBox](./images/bed_plot_coolbox.png)
+
+See ./examples for example input/output files.
 
 ## License
 This project is licensed under the MIT License.
